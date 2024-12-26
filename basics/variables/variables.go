@@ -14,6 +14,9 @@ func main() {
 	//short hand declaration
 	newName := "John"
 
+	var some = false // type inference cannot reassign to another type
+
+
 	//or 
 
 	var newPL string
@@ -23,5 +26,14 @@ func main() {
 	var price float64 
 	price = 1.23 // float variable declaration and assignment
 
-	fmt.Println(name, isAvailable, age, newName,newPL,price)
+	// Variable grouping
+	var (
+		port = 5000
+		host = "localhost"
+
+	)
+	port = 3000
+
+	fmt.Println(name, isAvailable, age, newName,newPL,price,some)
+	fmt.Println(port, host)
 }
