@@ -24,3 +24,21 @@ func main() {
 	color.Green(user1.Email)
 
 }
+
+// go terminal cmnds
+// go run main.go
+// go build main.go
+// ./main
+// go install
+// go clean
+// go fmt
+// go get
+// go mod init
+// go mod tidy
+// go mod vendor
+// go mod download
+// go mod verify
+// go mod graph
+// go mod edit
+// go mod why
+// go mod vendor
